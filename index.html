@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -8,24 +9,21 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- Favicon -->
 <link rel="icon" type="image/png" href="assets/ingood-fav.png">
-  
+
+<meta name="google-site-verification" content="-gUnBbpFEtXvwj_KP6OnhoLgYeKLqmx5REeRTzSOnCI" />
+
 <style>
+
 html{
 scroll-behavior:smooth;
 }
 
-section{
-padding:40px 10%;
-scroll-margin-top:90px;
-}
-  
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family: 'Inter', sans-serif;
+font-family:'Inter',sans-serif;
 }
 
 body{
@@ -40,9 +38,12 @@ nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:22px 8%;
+padding:22px 40px;
 background:white;
 box-shadow:0 4px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+z-index:1000;
 }
 
 .logo{
@@ -66,12 +67,14 @@ font-weight:500;
 /* HERO */
 
 .hero{
-padding:100px 10%;
+padding:120px 40px;
 background:linear-gradient(135deg,#eef2ff,#ffffff);
 display:flex;
 flex-direction:column;
 align-items:center;
 text-align:center;
+max-width:1200px;
+margin:auto;
 }
 
 .hero h1{
@@ -98,10 +101,13 @@ cursor:pointer;
 box-shadow:0 8px 20px rgba(37,99,235,0.3);
 }
 
-/* SECTION */
+/* SECTIONS */
 
 section{
-padding:40px 10%;
+padding:80px 40px;
+max-width:1200px;
+margin:auto;
+scroll-margin-top:90px;
 }
 
 .section-title{
@@ -110,7 +116,7 @@ margin-bottom:25px;
 color:#0f172a;
 }
 
-/* TEXT BLOCK */
+/* TEXT */
 
 .text{
 max-width:900px;
@@ -118,12 +124,12 @@ font-size:17px;
 color:#475569;
 }
 
-/* CARDS */
+/* FEATURE CARDS */
 
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
 margin-top:40px;
 }
 
@@ -165,7 +171,7 @@ margin-bottom:10px;
 /* FOOTER */
 
 footer{
-padding:50px 10%;
+padding:50px 40px;
 text-align:center;
 background:#0f172a;
 color:white;
@@ -173,29 +179,33 @@ margin-top:60px;
 }
 
 </style>
-<meta name="google-site-verification" content="-gUnBbpFEtXvwj_KP6OnhoLgYeKLqmx5REeRTzSOnCI" />
 </head>
 
 <body>
 
 <nav>
+
 <div class="logo">InGood</div>
+
 <ul>
 <li><a href="#home">Home</a></li>
 <li><a href="#how-ingood-works">Platform</a></li>
 <li><a href="#features">Features</a></li>
 <li><a href="#conclusion">About</a></li>
 </ul>
+
 </nav>
 
 
-<section class="hero">
-<section id="home">
+<section class="hero" id="home">
+
 <h1>InGood: India’s First Self-Adjusting SIP Platform</h1>
 
 <p>
 Investing in India has grown rapidly over the past decade, with Systematic Investment Plans (SIPs) becoming one of the most popular ways for individuals to build long-term wealth through mutual funds. However, traditional SIP models require investors to commit to a fixed amount every month, assuming that income and expenses remain predictable. In reality, financial life rarely works this way. Monthly spending fluctuates, unexpected expenses arise, and many investors end up skipping or pausing their SIPs.
+
 <br><br>
+
 InGood introduces a modern solution to this challenge through the concept of Self-Adjusting SIP. The platform is designed to make investing flexible and aligned with real-life cash flow, enabling individuals to stay invested without financial strain.
 </p>
 
@@ -210,15 +220,17 @@ InGood introduces a modern solution to this challenge through the concept of Sel
 
 <p class="text">
 A Self-Adjusting SIP is an adaptive investment system where the monthly investment amount adjusts automatically based on available surplus funds. Instead of forcing investors to commit to a rigid monthly contribution, the system evaluates spending patterns and allocates surplus money toward investments within user-defined limits.
+
 <br><br>
+
 This approach allows investors to contribute more during months with lower expenses and reduce allocations during months with higher spending. By adapting to real financial behavior, Self-Adjusting SIPs help maintain consistent participation in the market while preserving financial flexibility.
 </p>
 
 </section>
 
 
-<section>
 <section id="how-ingood-works">
+
 <h2 class="section-title">How InGood Works</h2>
 
 <p class="text">
@@ -254,8 +266,8 @@ Through this structured process, InGood ensures that investments remain aligned 
 </section>
 
 
-<section>
 <section id="features">
+
 <h2 class="section-title">Key Features of the InGood Platform</h2>
 
 <div class="cards">
@@ -296,7 +308,9 @@ Through this structured process, InGood ensures that investments remain aligned 
 
 <p class="text">
 Many investors start SIPs with strong intentions but struggle to maintain them due to rigid monthly commitments. When expenses increase or income fluctuates, fixed contributions can feel restrictive, leading investors to pause or cancel their investments.
+
 <br><br>
+
 The Self-Adjusting SIP model introduced by InGood addresses this issue by aligning investments with real-life spending patterns. Instead of requiring strict discipline, the system supports consistent participation through intelligent automation.
 </p>
 
@@ -308,19 +322,33 @@ The Self-Adjusting SIP model introduced by InGood addresses this issue by aligni
 <h2 class="section-title">Who Can Benefit from InGood?</h2>
 
 <p class="text">
+
 The InGood platform is designed for individuals whose financial lives are dynamic.
+
 <br><br>
+
 It is particularly beneficial for:
+
 <br><br>
+
 Young professionals starting their investment journey
+
 <br>
+
 Salaried individuals with variable monthly expenses
+
 <br>
+
 First-time investors looking for a simpler way to invest
+
 <br>
+
 People who want to maintain liquidity while building long-term wealth
+
 <br><br>
+
 By removing the rigidity of traditional SIPs, InGood makes investing accessible to a broader range of individuals.
+
 </p>
 
 </section>
@@ -331,23 +359,30 @@ By removing the rigidity of traditional SIPs, InGood makes investing accessible 
 <h2 class="section-title">The Future of Adaptive Investing</h2>
 
 <p class="text">
+
 As financial technology continues to evolve, investment systems are increasingly designed to reflect real human behavior rather than rigid financial assumptions. The Self-Adjusting SIP concept represents a shift toward adaptive investing, where automation and flexibility work together to support long-term participation.
+
 <br><br>
+
 As India’s first platform built around this concept, InGood is pioneering a new approach to systematic investing one that balances discipline, liquidity, and automation.
+
 </p>
 
 </section>
 
 
-<section>
 <section id="conclusion">
 
 <h2 class="section-title">Conclusion</h2>
 
 <p class="text">
+
 InGood is more than an investment application; it is a new framework for managing cash flow and wealth creation simultaneously. By introducing the Self-Adjusting SIP model, the platform enables investors to remain consistent in their investment journey without sacrificing financial comfort.
+
 <br><br>
+
 Through intelligent automation, liquidity-first design, and surplus-based investing, InGood is reshaping how individuals participate in systematic investing in India.
+
 </p>
 
 </section>
